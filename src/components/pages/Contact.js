@@ -1,22 +1,114 @@
 import React from 'react';
+import axios from 'axios';
 
-export default function Contact() {
-  return (
-    <div>
-      <h1>Contact Me</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-    </div>
-  );
+const styles = {
+  h1: {
+    margin: '20px',
+  },
+  form: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    marginTop: '10%',
+  },
+};
+
+class Contact extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: '',
+      email: '',
+      message: '',
+    };
+  }
+  handleSubmit(e) {
+    e.preventDefault();
+    axios({
+      method: 'POST',
+      url: 'http://localhost:3002/send',
+      data: this.state,
+    }).then((response) => {
+      if (response.data.status === 'success') {
+        alert('Message Sent.');
+        this.resetForm();
+      } else if (response.data.status === 'fail') {
+        alert('Message failed to send.');
+      }
+    });
+  }
+
+  resetForm() {
+    this.setState({ name: '', email: '', message: '' });
+  }
+
+  render() {
+    return (
+      <div
+        className="App"
+        style={styles.h1}
+      >
+        <h1>Contact Me</h1>
+        <p>Leave me a message!</p>
+        <form
+          id="contact-form"
+          style={styles.form}
+          onSubmit={this.handleSubmit.bind(this)}
+          method="POST"
+        >
+          <div className="form-group">
+            <label htmlFor="name">Name</label>
+            <input
+              type="text"
+              className="form-control"
+              id="name"
+              value={this.state.name}
+              onChange={this.onNameChange.bind(this)}
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="exampleInputEmail1">Email address</label>
+            <input
+              type="email"
+              className="form-control"
+              id="email"
+              aria-describedby="emailHelp"
+              value={this.state.email}
+              onChange={this.onEmailChange.bind(this)}
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="message">Message</label>
+            <textarea
+              className="form-control"
+              rows="5"
+              id="message"
+              value={this.state.message}
+              onChange={this.onMessageChange.bind(this)}
+            />
+          </div>
+          <button
+            type="submit"
+            className="btn btn-primary"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    );
+  }
+
+  onNameChange(event) {
+    this.setState({ name: event.target.value });
+  }
+
+  onEmailChange(event) {
+    this.setState({ email: event.target.value });
+  }
+
+  onMessageChange(event) {
+    this.setState({ message: event.target.value });
+  }
 }
+
+export default Contact;
