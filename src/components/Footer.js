@@ -2,15 +2,18 @@ import React from 'react';
 
 const styles = {
   footer: {
-    position: 'absolute',
-    bottom: '0px',
+    position: 'sticky',
+    bottom: '120px',
     display: 'block',
     width: '100%',
     textAlign: 'center',
     color: '#F6BC7D',
+    fontSize: '16px',
+    fontWeight: 'bold',
+    padding: '10px 0px',
   },
   a: {
-    color: '#F6BC7D',
+    color: '#040404',
     textDecoration: 'none',
   },
 };

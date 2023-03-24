@@ -10,13 +10,18 @@ const styles = {
   },
   img: {
     width: '300px',
-    height: '150px',
+    height: '300px',
+    margin: '60px',
   },
   projects: {
     display: 'flex',
     flexDirection: 'row',
     flexWrap: 'wrap',
-    justifyContent: 'space-between',
+    justifyContent: 'space-around',
+    marginTop: '20px',
+  },
+  description: {
+    fontWeight: 'bold',
   },
 };
 
@@ -27,21 +32,23 @@ export default function Portfolio() {
       <p>A collection of my favorite projects.</p>
       <section id="projects">
         <div className="container">
-          <div>
-            <h3 style={styles.title}>Apps that I've Built</h3>
-          </div>
           <div style={styles.projects}>
             {projects.map((project) => (
-              <a
-                href={project.link}
-                key={project.image}
-              >
-                <img
-                  alt="gallery"
-                  src={project.image}
-                  style={styles.img}
-                />
-              </a>
+              <div>
+                <a
+                  href={project.link}
+                  key={project.image}
+                >
+                  <img
+                    alt="gallery"
+                    src={project.image}
+                    style={styles.img}
+                  />
+                </a>
+                <div style={styles.description}>
+                  <p></p>
+                </div>
+              </div>
             ))}
           </div>
         </div>

@@ -7,7 +7,7 @@ export const projects = [
   {
     title: 'MeetIO',
     subtitle: 'Technologies...',
-    description: 'Group Project',
+    description: 'Calendar App',
     image: MeetIO,
     link: 'https://meet-io-project2-group5.herokuapp.com/',
   },

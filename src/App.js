@@ -11,8 +11,10 @@ const styles = {
     backgroundImage: `url(${Venice})`,
     backgroundPosition: 'center',
     backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundAttachment: 'fixed',
     width: '80vw',
-    height: '100vh',
+    minHeight: '100vh',
     marginLeft: '10%',
   },
 };
@@ -21,9 +23,7 @@ const App = () => {
   return (
     <div style={styles.body}>
       <div style={styles.container}>
-        <container>
-          <PortfolioContainer />
-        </container>
+        <PortfolioContainer />
       </div>
       <Footer />
     </div>
