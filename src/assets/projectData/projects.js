@@ -2,6 +2,8 @@ import Barcelona from '../images/Barcelona.jpeg';
 import MeetIO from '../images/MeetIO.png';
 import River from '../images/RiverRunner.jpeg';
 import Workday from '../images/WorkdayScheduler.jpeg';
+import Blog from '../images/Blog.jpeg';
+import Texter from '../images/Texter.jpeg';
 
 export const projects = [
   {
@@ -31,5 +33,19 @@ export const projects = [
     description: 'Plan your day',
     image: Workday,
     link: 'https://pmengler.github.io/My-Workday-Scheduler/',
+  },
+  {
+    title: 'Tech Nerd Blog',
+    subtitle: 'Technologies...',
+    description: 'A blog where tech nerds can share content',
+    image: Blog,
+    link: 'https://tech-nerd-blog.herokuapp.com/',
+  },
+  {
+    title: 'Just Another Text Editor',
+    subtitle: 'JATE PWA',
+    description: 'JATE',
+    image: Texter,
+    link: 'https://texter-pwa.herokuapp.com/',
   },
 ];

@@ -33,7 +33,12 @@ export default function About() {
           />
         </section>
         <section style={styles.section}>
-          <p>Civil Engineer and Junior Developer</p>
+          <div>
+            <p>Full Stack Web Developer</p>
+            <p>Civil Engineer (EIT)</p>
+            <p>World Traveller</p>
+            <p>Always Learning</p>
+          </div>
         </section>
       </div>
     </div>

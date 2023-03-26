@@ -11,10 +11,10 @@ const styles = {
     backgroundImage: `url(${Venice})`,
     backgroundPosition: 'center',
     backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat',
+    // backgroundRepeat: 'repeat-y',
     backgroundAttachment: 'fixed',
     width: '80vw',
-    minHeight: '100vh',
+    minHeight: '150vh',
     marginLeft: '10%',
   },
 };

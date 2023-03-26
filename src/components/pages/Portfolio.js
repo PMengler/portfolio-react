@@ -9,15 +9,17 @@ const styles = {
     textAlign: 'center',
   },
   img: {
-    width: '300px',
-    height: '300px',
-    margin: '60px',
+    width: '250px',
+    height: '250px',
+    margin: '50px',
+    borderRadius: '25px',
+    boxShadow: '0 0 10px rgba(0, 0, 0, 1)',
   },
   projects: {
     display: 'flex',
     flexDirection: 'row',
     flexWrap: 'wrap',
-    justifyContent: 'space-around',
+    justifyContent: 'space-evenly',
     marginTop: '20px',
   },
   description: {

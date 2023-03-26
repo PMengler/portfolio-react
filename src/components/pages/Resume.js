@@ -7,6 +7,9 @@ const styles = {
   a: {
     color: '#040404',
   },
+  skills: {
+    textAlign: 'center',
+  },
 };
 
 export default function Resume() {
@@ -19,10 +22,19 @@ export default function Resume() {
       >
         <p>Download Here</p>
       </a>
-      <img
-        src=""
-        alt=""
-      ></img>
+      <div style={styles.skills}>
+        <h3 style={styles.skills}>Key Skills</h3>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>JavaScript</p>
+        <p>React</p>
+        <p>NodeJS</p>
+        <p>Express</p>
+        <p>Mongoose</p>
+        <p>MongoDB</p>
+        <p>MySQL</p>
+        <p>Git</p>
+      </div>
     </div>
   );
 }
