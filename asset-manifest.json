@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c2cab247.css",
+    "main.js": "/static/js/main.60f30953.js",
+    "static/media/Picture.jpeg": "/static/media/Picture.3e17744f0c96ba87e586.jpeg",
+    "static/media/Venice.jpeg": "/static/media/Venice.3063927547c0a92b96fa.jpeg",
+    "static/media/MeetIO.png": "/static/media/MeetIO.eb66fc9a14ba8bb5ef94.png",
+    "static/media/Barcelona.jpeg": "/static/media/Barcelona.b6673f0a9cb1b6ff20f7.jpeg",
+    "static/media/WorkdayScheduler.jpeg": "/static/media/WorkdayScheduler.a99fc1600e7e93209d6c.jpeg",
+    "static/media/Blog.jpeg": "/static/media/Blog.54d6f41886454e088c73.jpeg",
+    "static/media/Texter.jpeg": "/static/media/Texter.acc04cdf8cc9e68df02f.jpeg",
+    "static/media/RiverRunner.jpeg": "/static/media/RiverRunner.c0f9fa1dd8cf93abc3cf.jpeg",
+    "index.html": "/index.html",
+    "main.c2cab247.css.map": "/static/css/main.c2cab247.css.map",
+    "main.60f30953.js.map": "/static/js/main.60f30953.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2cab247.css",
+    "static/js/main.60f30953.js"
+  ]
+}
