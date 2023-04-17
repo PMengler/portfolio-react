@@ -4,8 +4,16 @@ import River from '../images/RiverRunner.jpeg';
 import Workday from '../images/WorkdayScheduler.jpeg';
 import Blog from '../images/Blog.jpeg';
 import Texter from '../images/Texter.jpeg';
+import Glazed from '../images/GlazedandConfused.jpeg';
 
 export const projects = [
+  {
+    title: 'Glazed and Confused',
+    subtitle: 'Technologies...',
+    description: 'Online Donut Shop',
+    image: Glazed,
+    link: 'https://glazed-and-confused.herokuapp.com/',
+  },
   {
     title: 'MeetIO',
     subtitle: 'Technologies...',
