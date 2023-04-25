@@ -1,5 +1,5 @@
 import React from 'react';
-import { projects } from '../../assets/projectData/projects';
+import { projects } from '../assets/projectData/projects';
 
 const styles = {
   h1: {
