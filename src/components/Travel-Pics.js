@@ -1,19 +1,19 @@
 import React from 'react';
 import { ScrollMenu } from 'react-horizontal-scrolling-menu';
-// import Images from '../assets/images';
+import Barcelona from '../assets/images/Barcelona.jpeg';
 
-const numberOfPicture = [1, 2, 3, 4, 5, 6];
+const travelPics = [Barcelona];
 
 export default function ImageScroll() {
   return (
     <ScrollMenu
       arrowLeft={<div style={{ fontSize: '30px' }}>{' < '}</div>}
       arrowRight={<div style={{ fontSize: '30px' }}>{' > '}</div>}
-      data={numberOfPicture.map((picture, index) => (
+      data={travelPics.map((picture, index) => (
         <img
           style={{ height: '100px' }}
           alt="test"
-          src="https://reactjs.org/logo-og.png"
+          src={Barcelona}
         />
       ))}
     />

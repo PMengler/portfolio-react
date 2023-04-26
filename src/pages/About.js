@@ -1,6 +1,6 @@
 import React from 'react';
 import Me from '../assets/images/Picture.jpeg';
-import ImageScroll from '../components/Travel-Pics';
+import ImageScroll from '../components/Travel-Pics.js';
 
 const styles = {
   h1: {
@@ -57,9 +57,9 @@ export default function About() {
             <p>Browse Below for a glimpse at my travels!</p>
           </div>
         </section>
-        <div>
-          <ImageScroll />
-        </div>
+      </div>
+      <div>
+        <ImageScroll />
       </div>
     </div>
   );
