@@ -9,7 +9,7 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    marginTop: '10%',
+    paddingBottom: '20px',
   },
 };
 
@@ -49,7 +49,6 @@ class Contact extends React.Component {
         style={styles.h1}
       >
         <h1>Contact Me</h1>
-        <p>Leave me a message!</p>
         <form
           id="contact-form"
           style={styles.form}
