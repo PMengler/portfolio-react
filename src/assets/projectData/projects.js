@@ -35,13 +35,13 @@ export const projects = [
     image: Barcelona,
     link: 'https://pmengler.github.io/Weather-Dashboard-App/',
   },
-  {
-    title: 'Workday Scheduler',
-    subtitle: 'Technologies...',
-    description: 'Plan your day',
-    image: Workday,
-    link: 'https://pmengler.github.io/My-Workday-Scheduler/',
-  },
+  // {
+  //   title: 'Workday Scheduler',
+  //   subtitle: 'Technologies...',
+  //   description: 'Plan your day',
+  //   image: Workday,
+  //   link: 'https://pmengler.github.io/My-Workday-Scheduler/',
+  // },
   {
     title: 'Tech Nerd Blog',
     subtitle: 'Technologies...',
@@ -49,11 +49,11 @@ export const projects = [
     image: Blog,
     link: 'https://tech-nerd-blog.herokuapp.com/',
   },
-  {
-    title: 'Just Another Text Editor',
-    subtitle: 'JATE PWA',
-    description: 'JATE',
-    image: Texter,
-    link: 'https://texter-pwa.herokuapp.com/',
-  },
+  // {
+  //   title: 'Just Another Text Editor',
+  //   subtitle: 'JATE PWA',
+  //   description: 'JATE',
+  //   image: Texter,
+  //   link: 'https://texter-pwa.herokuapp.com/',
+  // },
 ];
