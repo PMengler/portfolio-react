@@ -1,9 +1,9 @@
 import Barcelona from '../images/Barcelona.jpeg';
-import MeetIO from '../images/MeetIO.png';
+// import MeetIO from '../images/MeetIO.png';
 import River from '../images/RiverRunner.jpeg';
-import Workday from '../images/WorkdayScheduler.jpeg';
+// import Workday from '../images/WorkdayScheduler.jpeg';
 import Blog from '../images/Blog.jpeg';
-import Texter from '../images/Texter.jpeg';
+// import Texter from '../images/Texter.jpeg';
 import Glazed from '../images/GlazedandConfused.jpeg';
 
 export const projects = [
