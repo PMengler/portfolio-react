@@ -19,8 +19,11 @@ export default function About() {
           </section>
           <section style={styles.section}>
             <div style={styles.p}>
-              <p>Full Stack Web Developer</p>
-              <p>Civil Engineer</p>
+              <p>
+                Full Stack Web Developer
+                <br />
+                Civil Engineer
+              </p>
               <p>World Traveller</p>
               <p>Always Learning</p>
               <p>
@@ -33,10 +36,9 @@ export default function About() {
                 Development bootcamp. As they say, the rest is history.
               </p>
               <div style={styles.p}>
-                <p>Key Skills:</p>
                 <p>
-                  HTML & CSS, JavaScript, React, Python, NodeJS, Express,
-                  MongoDB, MySQL, GraphQL, Git Flow
+                  Key Skills: HTML & CSS, JavaScript, React, Python, NodeJS,
+                  Express, MongoDB, MySQL, GraphQL, Git Flow
                 </p>
               </div>
               <a
