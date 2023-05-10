@@ -14,13 +14,13 @@ export const projects = [
     image: Glazed,
     link: 'https://glazed-and-confused.herokuapp.com/',
   },
-  {
-    title: 'MeetIO',
-    subtitle: 'Technologies...',
-    description: 'Calendar App',
-    image: MeetIO,
-    link: 'https://meet-io-project2-group5.herokuapp.com/',
-  },
+  // {
+  //   title: 'MeetIO',
+  //   subtitle: 'Technologies...',
+  //   description: 'Calendar App',
+  //   image: MeetIO,
+  //   link: 'https://meet-io-project2-group5.herokuapp.com/',
+  // },
   {
     title: 'River Runner',
     subtitle: 'Technologies...',
