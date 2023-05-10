@@ -57,10 +57,10 @@ export default function About() {
           <div className="container">
             <div style={styles.projects}>
               {projects.map((project) => (
-                <div>
+                <div key={project.id}>
                   <a
                     href={project.link}
-                    key={project.image}
+                    key={project.img}
                   >
                     <img
                       alt="gallery"

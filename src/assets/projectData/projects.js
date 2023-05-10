@@ -8,6 +8,7 @@ import Glazed from '../images/GlazedandConfused.jpeg';
 
 export const projects = [
   {
+    id: 0,
     title: 'Glazed and Confused',
     subtitle: 'Technologies...',
     description: 'Online Donut Shop',
@@ -22,6 +23,7 @@ export const projects = [
   //   link: 'https://meet-io-project2-group5.herokuapp.com/',
   // },
   {
+    id: 1,
     title: 'River Runner',
     subtitle: 'Technologies...',
     description: 'Group Project',
@@ -29,6 +31,7 @@ export const projects = [
     link: 'https://pmengler.github.io/river_runner/',
   },
   {
+    id: 2,
     title: 'Weather Dashboard',
     subtitle: 'API Queries and Javascript',
     description: 'Solo Weather Application',
@@ -43,6 +46,7 @@ export const projects = [
   //   link: 'https://pmengler.github.io/My-Workday-Scheduler/',
   // },
   {
+    id: 3,
     title: 'Tech Nerd Blog',
     subtitle: 'Technologies...',
     description: 'A blog where tech nerds can share content',
