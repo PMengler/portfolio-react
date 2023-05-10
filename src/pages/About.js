@@ -23,9 +23,11 @@ export default function About() {
                 Full Stack Web Developer
                 <br />
                 Civil Engineer
+                <br />
+                World Traveller
+                <br />
+                Always Learning
               </p>
-              <p>World Traveller</p>
-              <p>Always Learning</p>
               <p>
                 At age 28, I looked back at where I was in life and then looked
                 as far forward on my path as I could imagine. I realized that I
@@ -37,8 +39,11 @@ export default function About() {
               </p>
               <div style={styles.p}>
                 <p>
-                  Key Skills: HTML & CSS, JavaScript, React, Python, NodeJS,
-                  Express, MongoDB, MySQL, GraphQL, Git Flow
+                  Key Skills:
+                  <br />
+                  Git, HTML & CSS, JavaScript, React, Node, Express,
+                  <br />
+                  Python, Flask, sqlAlchemy, MongoDB, MySQL, GraphQL
                 </p>
               </div>
               <a
