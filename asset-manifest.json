@@ -1,22 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.c2cab247.css",
-    "main.js": "/portfolio-react/static/js/main.70da561b.js",
+    "main.js": "/portfolio-react/static/js/main.6c1650c9.js",
     "static/media/Picture.jpeg": "/portfolio-react/static/media/Picture.3e17744f0c96ba87e586.jpeg",
     "static/media/Venice.jpeg": "/portfolio-react/static/media/Venice.3063927547c0a92b96fa.jpeg",
-    "static/media/MeetIO.png": "/portfolio-react/static/media/MeetIO.eb66fc9a14ba8bb5ef94.png",
     "static/media/GlazedandConfused.jpeg": "/portfolio-react/static/media/GlazedandConfused.cae315e45ba42a4aecfe.jpeg",
     "static/media/Barcelona.jpeg": "/portfolio-react/static/media/Barcelona.b6673f0a9cb1b6ff20f7.jpeg",
-    "static/media/WorkdayScheduler.jpeg": "/portfolio-react/static/media/WorkdayScheduler.a99fc1600e7e93209d6c.jpeg",
     "static/media/Blog.jpeg": "/portfolio-react/static/media/Blog.54d6f41886454e088c73.jpeg",
-    "static/media/Texter.jpeg": "/portfolio-react/static/media/Texter.acc04cdf8cc9e68df02f.jpeg",
     "static/media/RiverRunner.jpeg": "/portfolio-react/static/media/RiverRunner.c0f9fa1dd8cf93abc3cf.jpeg",
     "index.html": "/portfolio-react/index.html",
     "main.c2cab247.css.map": "/portfolio-react/static/css/main.c2cab247.css.map",
-    "main.70da561b.js.map": "/portfolio-react/static/js/main.70da561b.js.map"
+    "main.6c1650c9.js.map": "/portfolio-react/static/js/main.6c1650c9.js.map"
   },
   "entrypoints": [
     "static/css/main.c2cab247.css",
-    "static/js/main.70da561b.js"
+    "static/js/main.6c1650c9.js"
   ]
 }
