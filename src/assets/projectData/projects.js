@@ -11,7 +11,8 @@ export const projects = [
     id: 0,
     title: 'Glazed and Confused',
     subtitle: 'Technologies...',
-    description: 'Online Donut Shop',
+    description:
+      'This project is a MERN full stack application that I created alongside 4 other team members in 9 days for our final project during bootcamp. Powered by React.',
     image: Glazed,
     link: 'https://glazed-and-confused.herokuapp.com/',
   },
@@ -26,7 +27,8 @@ export const projects = [
     id: 1,
     title: 'River Runner',
     subtitle: 'Technologies...',
-    description: 'Group Project',
+    description:
+      'My first group project during bootcamp created alongside 3 other team members. Created using basic HTML handlebars and bootstrap. This application utilizes the Google Maps API and a USGS watershed API.',
     image: River,
     link: 'https://pmengler.github.io/river_runner/',
   },
@@ -34,7 +36,8 @@ export const projects = [
     id: 2,
     title: 'Weather Dashboard',
     subtitle: 'API Queries and Javascript',
-    description: 'Solo Weather Application',
+    description:
+      'A basic weather forecast app that utilizes the OpenWeather API. This project was created solo using API Queries and vanilla JavaScript.',
     image: Barcelona,
     link: 'https://pmengler.github.io/Weather-Dashboard-App/',
   },
@@ -49,7 +52,8 @@ export const projects = [
     id: 3,
     title: 'Tech Nerd Blog',
     subtitle: 'Technologies...',
-    description: 'A blog where tech nerds can share content',
+    description:
+      'A full stack application that allows users to create, edit, and delete blog posts.',
     image: Blog,
     link: 'https://tech-nerd-blog.herokuapp.com/',
   },

@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import PortfolioContainer from './components/PortfolioContainer';
 import Venice from './assets/images/Venice.jpeg';
 import Footer from './components/Footer';
@@ -11,7 +12,6 @@ const styles = {
     backgroundImage: `url(${Venice})`,
     backgroundPosition: 'center',
     backgroundSize: 'cover',
-    // backgroundRepeat: 'repeat-y',
     backgroundAttachment: 'fixed',
     width: '80vw',
     minHeight: '150vh',
@@ -21,12 +21,19 @@ const styles = {
 
 const App = () => {
   return (
-    <div style={styles.body}>
-      <div style={styles.container}>
-        <PortfolioContainer />
+    <Router>
+      <div style={styles.body}>
+        <div style={styles.container}>
+          <Routes>
+            <Route
+              path="/"
+              element={<PortfolioContainer />}
+            />
+          </Routes>
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </Router>
   );
 };
 

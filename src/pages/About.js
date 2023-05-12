@@ -1,10 +1,12 @@
-import React from 'react';
+import * as React from 'react';
 import Me from '../assets/images/Picture.jpeg';
 import { projects } from '../assets/projectData/projects';
 import Contact from './Contact';
 import styles from '../assets/styles/styles';
 
 export default function About() {
+  const [selectedProject, setSelectedProject] = React.useState(null);
+
   return (
     <div>
       <div style={styles.h1}>
@@ -63,24 +65,40 @@ export default function About() {
             <div style={styles.projects}>
               {projects.map((project) => (
                 <div key={project.id}>
-                  <a
-                    href={project.link}
-                    key={project.img}
-                  >
-                    <img
-                      alt="gallery"
-                      src={project.image}
-                      style={styles.imgProj}
-                    />
-                  </a>
-                  <div style={styles.description}>
-                    <p></p>
-                  </div>
+                  <img
+                    alt="gallery"
+                    src={project.image}
+                    style={styles.imgProj}
+                    onClick={() => setSelectedProject(project)}
+                  />
                 </div>
               ))}
             </div>
           </div>
         </section>
+        {selectedProject && (
+          <div style={styles.modal}>
+            <div style={styles.modalContent}>
+              <span
+                style={styles.closeButton}
+                onClick={() => setSelectedProject(null)}
+              >
+                &times;
+              </span>
+              <div style={styles.h1}>
+                <h2>{selectedProject.title}</h2>
+                <p>{selectedProject.description}</p>
+                <a
+                  href={selectedProject.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View Project
+                </a>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
       <div>
         <Contact />
