@@ -26,7 +26,7 @@ const App = () => {
         <div style={styles.container}>
           <Routes>
             <Route
-              path="/"
+              path="/portfolio-react"
               element={<PortfolioContainer />}
             />
           </Routes>
